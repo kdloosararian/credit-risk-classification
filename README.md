@@ -1,4 +1,36 @@
 
+Credit Risk Analysis Report:
+
+Purpose of this analysis: 
+	The purpose of this analysis was to assess the performance of machine learning models and accuracy of a data model, specifically logistic regression, in predicting credit risk. The analysis aimed to utilize financial data to predict whether a loan is either healthy (0) or has a high risk of default (1). Justifying the recommended model for company to use. 
+
+
+Describe the accuracy, precision, and recall scores of the machine learning model:
+
+The dataset included information on various financial attributes such as loan amount, interest rates, credit scores, amount of accounts, and other related variables. The prediction was focused on categorizing loans into either '0' for healthy loans or '1' for high-risk loans based on this financial data.
+Model 1:
+•	Balanced Accuracy Score: 99.23%. Considering the sensitivity (recall / true positive rate and specificity (true negative rate) of the model the balanced prediction accuracy was 99.23%
+•	Precision Score:93% an average of 93% of predicted Positives were correct. 
+•	Recall Score: 95% Model has 95% precision in measuring true positive values out of all the positive predictions made. 
+•	F1-Score: 94%. Combining the precision and recall scores of model computing how many times a model made a correct prediction across the entire dataset. 
+
+
+Model 2:
+•	Balanced Accuracy Score: 99.42%. Considering the sensitivity (recall / true positive rate and specificity (true negative rate) of the model the balanced prediction accuracy was 99.42%
+•	Precision Score:93% an average of 93% of predicted Positives were correct. 
+•	Recall Score: 99% Model has 99% precision in measuring true positive values out of all the positive predictions made. 
+•	F1-Score: 96%. Combining the precision and recall scores of model computing how many times a model made a correct prediction across the entire dataset. 
+
+
+Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
+
+Considering the nature of the problem - predicting loan default risks - both precision and recall for high-risk loans ('1') are crucial. Model 2, which incorporated resampling techniques, demonstrated a substantial improvement in predicting high-risk loans compared to the initial model.
+
+Model 2 is recommended due to its higher balanced accuracy, improved precision, and recall for high-risk loans. The increased ability to accurately identify high-risk loans is more crucial in the context of avoiding potential defaults, making it a more reliable model for this specific problem. Therefore, Model 2 appears to be more suitable for deployment in predicting loan defaults.
+
+
+In summary I would recommend using model 2 to predict the creditworthiness of borrowers. It has over 99% in accuracy if predicting the outcome of the repayment of initial loans. It can be easily molded into a business risk profile to ensure sufficient capital flow for the lenders to remain in business as well as make a profit. 
+![image](https://github.com/kdloosararian/credit-risk-classification/assets/134308829/51ab7550-2961-44b7-bfb9-a41a00983e3c)
 
 
 
@@ -6,19 +38,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+Instructions: 
 
 # credit-risk-classification
 Module 20
