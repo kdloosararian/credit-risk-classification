@@ -10,6 +10,7 @@ Describe the accuracy, precision, and recall scores of the machine learning mode
 The dataset included information on various financial attributes such as loan amount, interest rates, credit scores, amount of accounts, and other related variables. The prediction was focused on categorizing loans into either '0' for healthy loans or '1' for high-risk loans based on this financial data.
 
 Model 1:
+
 •	Balanced Accuracy Score: 99.23%. Considering the sensitivity (recall / true positive rate and specificity (true negative rate) of the model the balanced prediction accuracy was 99.23%
 
 •	Precision Score:93% an average of 93% of predicted Positives were correct. 
@@ -20,9 +21,13 @@ Model 1:
 
 
 Model 2:
+
 •	Balanced Accuracy Score: 99.42%. Considering the sensitivity (recall / true positive rate and specificity (true negative rate) of the model the balanced prediction accuracy was 99.42%
+
 •	Precision Score:93% an average of 93% of predicted Positives were correct. 
+
 •	Recall Score: 99% Model has 99% precision in measuring true positive values out of all the positive predictions made. 
+
 •	F1-Score: 96%. Combining the precision and recall scores of model computing how many times a model made a correct prediction across the entire dataset. 
 
 
