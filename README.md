@@ -11,8 +11,11 @@ The dataset included information on various financial attributes such as loan am
 
 Model 1:
 •	Balanced Accuracy Score: 99.23%. Considering the sensitivity (recall / true positive rate and specificity (true negative rate) of the model the balanced prediction accuracy was 99.23%
+
 •	Precision Score:93% an average of 93% of predicted Positives were correct. 
+
 •	Recall Score: 95% Model has 95% precision in measuring true positive values out of all the positive predictions made. 
+
 •	F1-Score: 94%. Combining the precision and recall scores of model computing how many times a model made a correct prediction across the entire dataset. 
 
 
